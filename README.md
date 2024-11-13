@@ -1,6 +1,15 @@
 # board-lights
 Schematic for Meepo V3S Skateboard Lights. Meant to power [these 24V WS2811 COB Leds](https://www.aliexpress.us/item/3256805848873454.html?gatewayAdapt=glo2usa) using the Meepo V3S 36V Battery.
 
+
+https://github.com/user-attachments/assets/10e10ca3-55f4-4bfa-9f18-f33567d93a93
+
+![schematic](./src/schematic.png)
+
+![pcb](./src/pcb.png)
+
+![board](./src/IMG_4305.JPEG)
+
 ## Known issues
 This was my first real PCB project, so there were many (easily fixable) issues, but it still works as-is.
 - Did not pull EN high (whoops). Bridge the two upper pins of the connector after the board is powered on.
